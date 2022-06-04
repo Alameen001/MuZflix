@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
@@ -40,10 +41,9 @@ class _favoritescreenState extends State<favoritescreen> {
               end: Alignment.bottomCenter,
               colors: [
                 Colors.black,
-                  Color.fromARGB(255, 158, 48, 48),
+                Color.fromARGB(255, 158, 48, 48),
                 Colors.black,
               ]),
-         
         ),
         height: double.infinity,
         width: double.infinity,
@@ -54,11 +54,24 @@ class _favoritescreenState extends State<favoritescreen> {
             sortType: null, //  Null will use the [key] has sort.
           ),
           builder: (context, item) {
-           if (item.data == null || item.data!.isEmpty) {
+            if (item.data == null || item.data!.isEmpty) {
               return Center(
-                child: Text(
-                  'Nothing Found',
-                  style: GoogleFonts.montserrat(color: Colors.white),
+                // child: Text(
+                //   'Nothing Found',
+                //   style: GoogleFonts.montserrat(color: Colors.white),
+                // ),
+                child: DefaultTextStyle(
+                  style: TextStyle(fontSize: 16),
+                  child: AnimatedTextKit(
+                    animatedTexts: [
+                      WavyAnimatedText(
+                        'Nothing Found',
+                        textStyle: GoogleFonts.montserrat(color: Colors.white),
+                      ),
+                    ],
+                    repeatForever: true,
+                    isRepeatingAnimation: true,
+                  ),
                 ),
               );
             }
@@ -108,11 +121,13 @@ class _favoritescreenState extends State<favoritescreen> {
                     child: ListTile(
                       onTap: () async {
                         await player.open(
-                            Playlist(audios: favSongs, startIndex: index),
-                            showNotification: true,
-                            loopMode: LoopMode.playlist,
-                            notificationSettings: const NotificationSettings(
-                                stopEnabled: false,),);
+                          Playlist(audios: favSongs, startIndex: index),
+                          showNotification: true,
+                          loopMode: LoopMode.playlist,
+                          notificationSettings: const NotificationSettings(
+                            stopEnabled: false,
+                          ),
+                        );
                       },
                       title: Text(
                         favorites[index].title,

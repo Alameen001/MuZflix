@@ -37,10 +37,10 @@
 23    <application
 24        android:name="android.app.Application"
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-25-->[androidx.core:core:1.6.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
+25-->[androidx.core:core:1.7.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\b9a960218f5163997c0fdfa3d3078c0e\core-1.7.0\AndroidManifest.xml:24:18-86
 26        android:debuggable="true"
 27        android:icon="@mipmap/ic_launcher"
-28        android:label="music1" >
+28        android:label="MuZFlix" >
 29        <activity
 30            android:name="com.example.music1.MainActivity"
 31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -74,54 +74,81 @@
 59            android:name="flutterEmbedding"
 60            android:value="2" />
 61
-62        <receiver
-62-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:39
-63            android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver"
-63-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-108
-64            android:exported="true" />
-64-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-36
-65        <receiver
-65-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-21:20
-66            android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver"
-66-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-107
-67            android:exported="true" >
-67-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-36
-68            <intent-filter>
-68-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-20:29
-69                <action android:name="android.intent.action.MEDIA_BUTTON" />
-69-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-77
-69-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:19:25-74
-70            </intent-filter>
-71        </receiver>
-72
-73        <service
-73-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-33:19
-74            android:name="com.github.florent37.assets_audio_player.notification.NotificationService"
-74-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-101
-75            android:enabled="true"
-75-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-35
-76            android:exported="true" >
-76-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-36
-77
-78            <!--
-79            <intent-filter>
-80                <action android:name="android.intent.action.MEDIA_BUTTON" />
-81            </intent-filter>
-82            -->
-83        </service>
-84
-85        <uses-library
-85-->[androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
-86            android:name="androidx.window.extensions"
-86-->[androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
-87            android:required="false" />
-87-->[androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
-88        <uses-library
-88-->[androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
-89            android:name="androidx.window.sidecar"
-89-->[androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
-90            android:required="false" />
-90-->[androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
-91    </application>
+62        <provider
+62-->[:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+63            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+63-->[:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-77
+64            android:authorities="com.example.music1.flutter.share_provider"
+64-->[:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+65            android:exported="false"
+65-->[:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+66            android:grantUriPermissions="true" >
+66-->[:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+67            <meta-data
+67-->[:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:68
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->[:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+69                android:resource="@xml/flutter_share_file_paths" />
+69-->[:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-65
+70        </provider>
+71
+72        <activity
+72-->[:url_launcher_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+73            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+73-->[:url_launcher_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+74            android:exported="false"
+74-->[:url_launcher_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+75            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+75-->[:url_launcher_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+76
+77        <receiver
+77-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:39
+78            android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver"
+78-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-108
+79            android:exported="true" />
+79-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-36
+80        <receiver
+80-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-21:20
+81            android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver"
+81-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-107
+82            android:exported="true" >
+82-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-36
+83            <intent-filter>
+83-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-20:29
+84                <action android:name="android.intent.action.MEDIA_BUTTON" />
+84-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-77
+84-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:19:25-74
+85            </intent-filter>
+86        </receiver>
+87
+88        <service
+88-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-33:19
+89            android:name="com.github.florent37.assets_audio_player.notification.NotificationService"
+89-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-101
+90            android:enabled="true"
+90-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-35
+91            android:exported="true" >
+91-->[:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-36
 92
-93</manifest>
+93            <!--
+94            <intent-filter>
+95                <action android:name="android.intent.action.MEDIA_BUTTON" />
+96            </intent-filter>
+97            -->
+98        </service>
+99
+100        <uses-library
+100-->[androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+101            android:name="androidx.window.extensions"
+101-->[androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+102            android:required="false" />
+102-->[androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+103        <uses-library
+103-->[androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+104            android:name="androidx.window.sidecar"
+104-->[androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+105            android:required="false" />
+105-->[androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+106    </application>
+107
+108</manifest>

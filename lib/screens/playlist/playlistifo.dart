@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
@@ -64,13 +65,7 @@ class _PlaylistInfoState extends State<PlaylistInfo> {
             color: Colors.white,
           ),
         ),
-        actions: [
-          IconButton(
-              onPressed: () {
-                dialogBox(context, allSongs, audioRoom,0);
-              },
-              icon: Icon(Icons.arrow_drop_down_sharp))
-        ],
+    
       ),
       body: Container(
         decoration: const BoxDecoration(
@@ -87,8 +82,18 @@ class _PlaylistInfoState extends State<PlaylistInfo> {
         height: double.infinity,
         width: double.infinity,
         child: playlistSong.isEmpty
-            ? const Center(
-                child: Text('Nothing Found'),
+            ?  Center(
+                //  child: Text('Nothing Found'),
+                 child: DefaultTextStyle(style: TextStyle(fontSize: 16), child:  AnimatedTextKit(
+            animatedTexts: [
+              WavyAnimatedText('Nothing Found', textStyle: GoogleFonts.montserrat(color: Colors.white),),],
+              
+            
+            repeatForever: true,
+            isRepeatingAnimation: true,
+          ),),
+            
+                
               )
             : Padding(
              padding: const EdgeInsets.only(top: 30),

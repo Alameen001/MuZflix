@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:music1/splash.dart';
 import 'package:on_audio_room/on_audio_room.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -7,8 +8,18 @@ void main(List<String> args) {
   
     OnAudioRoom().initRoom();
 
+
+    //----screen orriantaion----//
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+
+
   runApp(MyApp(),);
 }
+
+//------useless-----//
 
 void permission(){
   Permission.storage.request();
@@ -31,7 +42,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: 'login Sample',
       theme: ThemeData(
-        primarySwatch: Colors.blue
+          primaryColor: Color(0xFF070A0A),
       ),
       home: Splashscreen(),
     );

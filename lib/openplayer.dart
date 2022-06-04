@@ -1,5 +1,6 @@
 import 'package:assets_audio_player/assets_audio_player.dart';
 
+
 class OpenMusic {
   List<Audio> fullSongs;
   int index;
@@ -10,7 +11,7 @@ class OpenMusic {
     required this.index,
   });
 
-  final AssetsAudioPlayer player = AssetsAudioPlayer.withId('0');
+   final AssetsAudioPlayer player = AssetsAudioPlayer.withId('0');
 
   openAssetPlayer({List<Audio>? songs, required int index}) async {
     player.open(

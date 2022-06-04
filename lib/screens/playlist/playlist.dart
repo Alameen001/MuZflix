@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -12,11 +13,10 @@ class playlistscreen extends StatefulWidget {
   @override
   State<playlistscreen> createState() => _playlistscreenState();
 }
+
 OnAudioRoom audioRoom = OnAudioRoom();
 
-
 class _playlistscreenState extends State<playlistscreen> {
-
   @override
   Widget build(BuildContext context) {
     final OnAudioQuery audioQuery = OnAudioQuery();
@@ -26,7 +26,6 @@ class _playlistscreenState extends State<playlistscreen> {
 
     //return Container();
     return Scaffold(
-      
       appBar: AppBar(
         centerTitle: true,
         elevation: 0,
@@ -52,8 +51,8 @@ class _playlistscreenState extends State<playlistscreen> {
         ],
       ),
       body: Container(
-        decoration: BoxDecoration(
-          gradient: const LinearGradient(
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomCenter,
               colors: [
@@ -75,9 +74,18 @@ class _playlistscreenState extends State<playlistscreen> {
 
             if (songs.data == null || songs.data!.isEmpty) {
               return Center(
-                child: Text(
-                  'Nothing Found',
-                  style: GoogleFonts.montserrat(color: Colors.white),
+                child: DefaultTextStyle(
+                  style: TextStyle(fontSize: 16),
+                  child: AnimatedTextKit(
+                    animatedTexts: [
+                      WavyAnimatedText(
+                        'Nothing Found',
+                        textStyle: GoogleFonts.montserrat(color: Colors.white),
+                      ),
+                    ],
+                    repeatForever: true,
+                    isRepeatingAnimation: true,
+                  ),
                 ),
               );
             }
@@ -95,7 +103,7 @@ class _playlistscreenState extends State<playlistscreen> {
                                 audioRoom,
                               );
                             },
-                            backgroundColor:  Color.fromARGB(255, 53, 135, 218),
+                            backgroundColor: Color.fromARGB(255, 50, 63, 77),
                             foregroundColor: Colors.white,
                             icon: Icons.edit,
                             label: 'Edit',
@@ -131,7 +139,7 @@ class _playlistscreenState extends State<playlistscreen> {
                                 //     item.data![index].key);
                               });
                             },
-                            backgroundColor:Colors.black,
+                            backgroundColor: Colors.black,
                             foregroundColor: Colors.white,
                             icon: Icons.delete,
                             label: 'Delete',
@@ -150,7 +158,6 @@ class _playlistscreenState extends State<playlistscreen> {
                                         songs: songs.data![index].playlistSongs,
                                         playlistKey: songs.data![index].key,
                                       )));
-                        
                         },
                         contentPadding: EdgeInsets.only(left: 30),
                         title: Text(
@@ -194,7 +201,7 @@ class _playlistscreenState extends State<playlistscreen> {
                     //filled: true,
 
                     hintStyle: TextStyle(color: Colors.grey[600]),
-                     hintText: playlistName,
+                    hintText: playlistName,
                   )),
               actions: [
                 TextButton(

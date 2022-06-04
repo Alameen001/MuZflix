@@ -1,20 +1,24 @@
 -- Merging decision tree log ---
 application
 INJECTED from C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\android\app\src\main\AndroidManifest.xml:5:4-35:19
+MERGED from [:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:url_launcher_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
 MERGED from [:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-34:19
 MERGED from [:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-34:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\e9102992eddae5d8b605d05aaf2b30cc\jetified-glide-4.13.0\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\e9102992eddae5d8b605d05aaf2b30cc\jetified-glide-4.13.0\AndroidManifest.xml:10:5-20
-MERGED from [androidx.core:core:1.6.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\b9a960218f5163997c0fdfa3d3078c0e\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\b9a960218f5163997c0fdfa3d3078c0e\core-1.7.0\AndroidManifest.xml:24:5-89
 MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\4ae9d7f338516a2fa2e04b7fa3ee135f\jetified-gifdecoder-4.13.0\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\4ae9d7f338516a2fa2e04b7fa3ee135f\jetified-gifdecoder-4.13.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\884708a9396f81808c0ac10f4b98ea32\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\884708a9396f81808c0ac10f4b98ea32\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\b9a960218f5163997c0fdfa3d3078c0e\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:name
 		INJECTED from C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\android\app\src\main\AndroidManifest.xml
 manifest
@@ -24,6 +28,8 @@ INJECTED from C:\Users\ameen\Desktop\flutter project\week10\music on audio quarr
 INJECTED from C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\android\app\src\main\AndroidManifest.xml:1:1-36:12
 MERGED from C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\android\app\src\main\AndroidManifest.xml:1:1-36:12
 MERGED from [:permission_handler_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\permission_handler_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:url_launcher_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
 MERGED from [:path_provider_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-36:12
 MERGED from [:assets_audio_player_web] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
@@ -32,6 +38,7 @@ MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\ameen\.gradle\caches\tra
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\eb7744834bd91d223a7bd1edc5162b2e\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\ad201fac15a88598107ec645f351f5b4\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\1efe65f6f5da5652bddd1d59d636630d\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.exoplayer:exoplayer:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\e7af34b1d8903b5cbf3d3d6f4658240e\jetified-exoplayer-2.15.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-hls:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\c12e79b199cbc57c73eb3ae3df088063\jetified-exoplayer-hls-2.15.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-dash:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\3338aecccf19a5e34acd9b1da741b9dd\jetified-exoplayer-dash-2.15.0\AndroidManifest.xml:17:1-24:12
@@ -55,7 +62,7 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ameen\
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\9ccab238727e236e8aff01a0f95cebe4\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\f6886f612e9817326f4f408c1489ce06\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\9344e812e9436e7dbce7c9baf11f7fbd\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.6.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\b9a960218f5163997c0fdfa3d3078c0e\core-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\b33dca54ceb85c164a1f606be8f8afe9\jetified-exoplayer-rtsp-2.15.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\266090de1a29868294bf9eb1144c2633\jetified-exoplayer-transformer-2.15.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\1c8029bc9c6470bdd4331a8beb2ed60c\jetified-exoplayer-core-2.15.0\AndroidManifest.xml:17:1-26:12
@@ -64,10 +71,10 @@ MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\ameen\.gradle\
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\884708a9396f81808c0ac10f4b98ea32\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\cff79d86cf12ec00e43bef7cea06dec5\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\42acb13871cd74f812098a2f4b7b2625\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\8578375fbf5df5bbe65cca21a6cd6acf\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\0dbc82d76c668e36374bcc493841f91b\jetified-exoplayer-extractor-2.15.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\eb7b1fd5142030bd15fd1d4bfbc432a2\jetified-exoplayer-common-2.15.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\1f318d44f7cc290e64a3a0110f6d1b61\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\49ba3f487325d0dc130ec5a08b2bbb16\lifecycle-runtime-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\8108bc8c5f35a568f919dbab3be0e175\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\3d4f66d2c06692b614a22fa78e290d66\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\16e110bf603f94cf61f970a18f3907e3\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
@@ -108,6 +115,10 @@ INJECTED from C:\Users\ameen\Desktop\flutter project\week10\music on audio quarr
 INJECTED from C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\android\app\src\main\AndroidManifest.xml
 MERGED from [:permission_handler_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\permission_handler_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:permission_handler_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\permission_handler_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-43
@@ -124,6 +135,8 @@ MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\ameen\.gradle\ca
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\ad201fac15a88598107ec645f351f5b4\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\1efe65f6f5da5652bddd1d59d636630d\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\1efe65f6f5da5652bddd1d59d636630d\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.exoplayer:exoplayer:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\e7af34b1d8903b5cbf3d3d6f4658240e\jetified-exoplayer-2.15.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\e7af34b1d8903b5cbf3d3d6f4658240e\jetified-exoplayer-2.15.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-hls:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\c12e79b199cbc57c73eb3ae3df088063\jetified-exoplayer-hls-2.15.0\AndroidManifest.xml:20:5-22:41
@@ -170,8 +183,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\amee
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\f6886f612e9817326f4f408c1489ce06\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\9344e812e9436e7dbce7c9baf11f7fbd\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\9344e812e9436e7dbce7c9baf11f7fbd\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.6.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\b9a960218f5163997c0fdfa3d3078c0e\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\b9a960218f5163997c0fdfa3d3078c0e\core-1.7.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\b33dca54ceb85c164a1f606be8f8afe9\jetified-exoplayer-rtsp-2.15.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\b33dca54ceb85c164a1f606be8f8afe9\jetified-exoplayer-rtsp-2.15.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\266090de1a29868294bf9eb1144c2633\jetified-exoplayer-transformer-2.15.0\AndroidManifest.xml:20:5-22:41
@@ -188,14 +201,14 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\a
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\cff79d86cf12ec00e43bef7cea06dec5\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\42acb13871cd74f812098a2f4b7b2625\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\42acb13871cd74f812098a2f4b7b2625\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\8578375fbf5df5bbe65cca21a6cd6acf\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\8578375fbf5df5bbe65cca21a6cd6acf\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\0dbc82d76c668e36374bcc493841f91b\jetified-exoplayer-extractor-2.15.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\0dbc82d76c668e36374bcc493841f91b\jetified-exoplayer-extractor-2.15.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\eb7b1fd5142030bd15fd1d4bfbc432a2\jetified-exoplayer-common-2.15.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\eb7b1fd5142030bd15fd1d4bfbc432a2\jetified-exoplayer-common-2.15.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\1f318d44f7cc290e64a3a0110f6d1b61\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\1f318d44f7cc290e64a3a0110f6d1b61\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\49ba3f487325d0dc130ec5a08b2bbb16\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\49ba3f487325d0dc130ec5a08b2bbb16\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\8108bc8c5f35a568f919dbab3be0e175\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\8108bc8c5f35a568f919dbab3be0e175\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\ameen\.gradle\caches\transforms-2\files-2.1\3d4f66d2c06692b614a22fa78e290d66\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:20:5-22:41
@@ -226,6 +239,30 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\android\app\src\debug\AndroidManifest.xml:6:5-66
 	android:name
 		ADDED from C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\android\app\src\debug\AndroidManifest.xml:6:22-64
+provider#dev.fluttercommunity.plus.share.ShareFileProvider
+ADDED from [:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-77
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:68
+	android:resource
+		ADDED from [:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-65
+	android:name
+		ADDED from [:share_plus] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\share_plus\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from [:assets_audio_player] C:\Users\ameen\Desktop\flutter project\week10\music on audio quarry\build\assets_audio_player\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-77
 	android:name

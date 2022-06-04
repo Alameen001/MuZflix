@@ -45,25 +45,13 @@ class _musicscreenState extends State<musicscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        // drawer: SettingsScreen(),
 
 //===========AppBar===============//
 
         appBar: AppBar(
-          // leading: IconButton(
-          //     onPressed: () {},
-          //     icon: Icon(
-          //       Icons.arrow_back,
-          //       color: Colors.yellow,
-          //     )),
           backgroundColor: Colors.black,
           title: Text(
             'My Music',
-            // style: TextStyle(
-            //     color: Color.fromARGB(255, 233, 217, 72),
-            //     fontWeight: FontWeight.w600,
-            //     fontSize: 30,
-            //     fontStyle: FontStyle.italic),
             style: GoogleFonts.inter(
               fontWeight: FontWeight.bold,
               fontSize: 25,
@@ -73,12 +61,14 @@ class _musicscreenState extends State<musicscreen> {
           actions: [
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: IconButton(onPressed: () {
-                  showSearch(
-                  context: context,
-                  delegate: deligatesearch(),
-                );
-              }, icon: Icon(Icons.search)),
+              child: IconButton(
+                  onPressed: () {
+                    showSearch(
+                      context: context,
+                      delegate: deligatesearch(),
+                    );
+                  },
+                  icon: Icon(Icons.search)),
             )
           ],
           centerTitle: true,
@@ -106,9 +96,6 @@ class _musicscreenState extends State<musicscreen> {
               }
               return Container(
                 decoration: const BoxDecoration(
-                  // borderRadius: BorderRadius.only(
-                  //     topLeft: Radius.circular(18), topRight: Radius.circular(18)),
-                  // color: Colors.grey[200],
                   gradient: LinearGradient(
                     begin: Alignment.topLeft,
                     end: Alignment.bottomCenter,
@@ -119,6 +106,9 @@ class _musicscreenState extends State<musicscreen> {
                     ],
                   ),
                 ),
+                height: double.infinity,
+                width: double.infinity,
+
                 child: Padding(
                   padding: const EdgeInsets.only(top: 30),
                   child: ListView.separated(
@@ -135,16 +125,19 @@ class _musicscreenState extends State<musicscreen> {
                                 ignoreDuplicate: false, // Avoid the same song
                               );
 
+
+                              //-----Snackbar----//
+
                               final snackBar = SnackBar(
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(13),
                                 ),
-                                backgroundColor: Colors.white,
+                                backgroundColor: Colors.red,
                                 content: const Text(
                                   ' Added to favourites',
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
-                                      color: Colors.red,
+                                      color: Colors.white,
                                       fontWeight: FontWeight.bold),
                                 ),
                               );
@@ -157,10 +150,11 @@ class _musicscreenState extends State<musicscreen> {
                             label: 'fav',
                           ),
                           SlidableAction(
+
+                            //-----Dilogbox>>>  fuctionClass----//
+
                             onPressed: (context) {
                               dialogBox(context, allSongs, audioRoom, index);
-
-                             
                             },
                             backgroundColor: Colors.black,
                             foregroundColor: Colors.white,
@@ -178,6 +172,9 @@ class _musicscreenState extends State<musicscreen> {
                               notificationSettings: const NotificationSettings(
                                   stopEnabled: false));
                         },
+
+                        //----Thumbnile---//
+
                         leading: QueryArtworkWidget(
                           artworkHeight: 60,
                           artworkWidth: 60,
@@ -196,28 +193,28 @@ class _musicscreenState extends State<musicscreen> {
                             ),
                           ),
                         ),
+
+
+                        //----Song Tilie----//
+
+
                         title: SingleChildScrollView(
                           scrollDirection: Axis.horizontal,
                           child: Text(
-                            item.data![index].displayNameWOExt,
-                            style: TextStyle(
+                            item.data![index].title,
+                            style: const TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 16,
                               color: Color.fromARGB(255, 202, 197, 197),
                             ),
                           ),
                         ),
-                        // trailing: InkWell(
-                        //   onTap: () {
-
-                        //   },
-                        //   child: const Icon(Icons.more_vert_outlined,color: Colors.black,size: 30,),
-                        // ),
+                      
                       ),
                     ),
                     separatorBuilder: (BuildContext context, int index) {
-                      return Padding(
-                        padding: const EdgeInsets.only(
+                      return const Padding(
+                        padding: EdgeInsets.only(
                             left: 20, right: 20, bottom: 8, top: 8),
                         child: Divider(
                           thickness: 3.0,
